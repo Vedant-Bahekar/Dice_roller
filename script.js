@@ -13,7 +13,7 @@ function roll_dice() {
 
         ans.push(temp);
         let img = document.createElement("img");
-        img.src = `/dice_rolling_program/images/${temp}.png`;
+        img.src = `images/${temp}.png`;
         img.alt = `Dice ${temp}`;
 
         images.push(img);
